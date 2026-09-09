@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Article Hub</title>
+  <desc id="desc">A branded open-book icon for Article Hub.</desc>
+  <defs>
+    <linearGradient id="bg" x1="66" y1="50" x2="452" y2="462" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#171412" />
+      <stop offset="0.58" stop-color="#0f3f3a" />
+      <stop offset="1" stop-color="#0d9488" />
+    </linearGradient>
+    <linearGradient id="pageLeft" x1="132" y1="120" x2="281" y2="411" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" />
+      <stop offset="1" stop-color="#f6f4ef" />
+    </linearGradient>
+    <linearGradient id="pageRight" x1="281" y1="120" x2="420" y2="411" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ecfeff" />
+      <stop offset="1" stop-color="#ccfbf1" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="88" fill="url(#bg)" />
+  <path d="M108 112h118c46 0 78 31 78 78v266c-18-20-47-32-82-32H108V112Z" fill="url(#pageLeft)" />
+  <path d="M304 190c0-47 32-78 78-78h118v312H386c-35 0-64 12-82 32V190Z" fill="url(#pageRight)" />
+  <path d="M304 190v266" fill="none" stroke="#14b8a6" stroke-linecap="round" stroke-width="16" />
+  <path d="M373 112h56v132l-28-22-28 22V112Z" fill="#e11d48" />
+  <path d="M167 350 224 174h42l57 176h-43l-10-36h-67l-10 36h-26Zm43-72h53l-26-91-27 91Z" fill="#0f766e" />
+  <path d="M363 285h58M363 326h70M363 367h48" fill="none" stroke="#0f766e" stroke-linecap="round" stroke-width="18" />
+  <path d="M108 424h114c35 0 64 12 82 32H160c-35 0-52-17-52-52v20Z" fill="#000000" opacity="0.16" />
+  <path d="M304 456c18-20 47-32 82-32h114v-20c0 35-17 52-52 52H304Z" fill="#000000" opacity="0.12" />
+</svg>

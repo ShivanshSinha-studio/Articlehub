@@ -1,0 +1,52 @@
+{
+  "id": "/",
+  "name": "Article Hub",
+  "short_name": "Article Hub",
+  "description": "A focused publishing platform for research stories, editorial discovery, and author workflows.",
+  "lang": "en",
+  "dir": "ltr",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "orientation": "portrait-primary",
+  "background_color": "#f6f4ef",
+  "theme_color": "#0f766e",
+  "categories": ["education", "news", "productivity"],
+  "icons": [
+    {
+      "src": "/articlehub-logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Search Articles",
+      "short_name": "Search",
+      "description": "Find articles across Article Hub.",
+      "url": "/search",
+      "icons": [
+        {
+          "src": "/articlehub-logo.svg",
+          "sizes": "any",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "Write Article",
+      "short_name": "Write",
+      "description": "Open the Article Hub editor.",
+      "url": "/editor",
+      "icons": [
+        {
+          "src": "/articlehub-logo.svg",
+          "sizes": "any",
+          "type": "image/svg+xml"
+        }
+      ]
+    }
+  ]
+}

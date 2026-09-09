@@ -1,0 +1,43 @@
+# dependencies
+node_modules/
+Backend/node_modules/
+Frontend/node_modules/
+
+# environment secrets
+.env
+.env.*
+!.env.example
+Backend/.env
+Backend/.env.*
+!Backend/.env.example
+Frontend/.env
+Frontend/.env.*
+!Frontend/.env.example
+
+# build output
+dist/
+build/
+Frontend/dist/
+Frontend/build/
+
+# runtime uploads / generated media
+uploads/
+Backend/uploads/
+
+# logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# local tool/cache folders
+.qodo/
+.cache/
+coverage/
